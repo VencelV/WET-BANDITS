@@ -1,4 +1,4 @@
-import periphery
+from periphery import PWM
 
 import time
 
