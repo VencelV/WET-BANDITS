@@ -2,7 +2,7 @@ from periphery import PWM
 import time
 
 # Use PWM on Pin 32 (pwmchip0, channel corresponding to Pin 32)
-pwm = PWM(0, 12)  # Correct PWM pin channel
+pwm = PWM(0, 32)  # Correct PWM pin channel
 
 # Enable PWM
 pwm.enable()
