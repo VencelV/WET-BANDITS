@@ -8,7 +8,7 @@ pwm = PWM(0, 0)  # Correcting the PWM chip input
 pwm.enable()
 
 # Set frequency to 50Hz (20ms period for servos)
-pwm.frequency = 200
+pwm.frequency = 50
 
 # Function to set servo angle
 def set_servo_angle(angle):
