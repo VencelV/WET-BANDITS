@@ -3,7 +3,7 @@ import time
 
 # Assuming Pin 33 is on chip 0, channel 1 (you can confirm this from your pinout or hardware docs)
 pwm = PWM(0, 1)  # chip 0, line 1
-pwm.frequency = 50  # Set frequency to 50Hz (20ms period)
+pwm.frequency = 100  # Set frequency to 50Hz (20ms period)
 pwm.enable()
 
 def set_servo_angle(angle):
