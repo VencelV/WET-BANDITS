@@ -31,20 +31,20 @@ set_servo_angle(60)
 
 time.sleep(1)
 
-# Move the servo to 0 degrees (extreme position)
 set_servo_angle(0)
+
+time.sleep(1)
+# Move the servo to 0 degrees (extreme position)
+set_servo_angle(180)
 
 time.sleep(1)
 
 # Move the servo to 135 degrees (mid-range)
-set_servo_angle(135)
+set_servo_angle(270)
 
 time.sleep(1)
 
 # Move the servo to 270 degrees (extreme position)
-set_servo_angle(270)
-
-time.sleep(1)
 
 # Disable PWM output after test
 pwm.disable()
