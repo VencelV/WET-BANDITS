@@ -29,6 +29,8 @@ def set_servo_angle(angle):
 # reset servo angle to 0 degrees
 set_servo_angle(0)
 
+time.sleep(1)
+
 # Test by setting the servo to 60 degrees
 set_servo_angle(60)
 
