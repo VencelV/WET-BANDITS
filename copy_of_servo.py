@@ -11,10 +11,11 @@ def set_servo_angle(angle):
     Map servo angle (0-270) to a duty cycle (pulse width in range of 0.5ms to 2.5ms).
     """
     # Ensure the angle is between 0 and 270 degrees
-    if angle < 0:
+    if angle <= 0:
         angle = 0
     elif angle > 270:
         angle = 270
+    
 
     # Calculate pulse width: 0.5ms for 0°, 2.5ms for 270°
     # (angle / 270) gives us a normalized value from 0 to 1, which we scale to 0.5ms to 2.5ms
