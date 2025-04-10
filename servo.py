@@ -26,6 +26,11 @@ def set_servo_angle(angle):
 
     pwm.duty_cycle = duty_cycle
 
+set_servo_angle(0)
+
+time.sleep(1)
+
+
 # Test by setting the servo to 60 degrees
 set_servo_angle(60)
 
@@ -46,8 +51,9 @@ time.sleep(1)
 
 set_servo_angle(270)
 
-time.sleep(1)
 
+time.sleep(1)
+set_servo_angle(0)
 #Move the servo to 270 degrees (extreme position)
 
 # Disable PWM output after test
