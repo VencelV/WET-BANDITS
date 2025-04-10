@@ -48,7 +48,7 @@ set_servo_angle(270)
 
 time.sleep(1)
 
-Move the servo to 270 degrees (extreme position)
+#Move the servo to 270 degrees (extreme position)
 
 # Disable PWM output after test
 pwm.disable()
