@@ -28,40 +28,42 @@ def set_servo_angle(angle):
 
 set_servo_angle(0)
 
-time.sleep(1)
+# time.sleep(1)
 
 
-# Test by setting the servo to 60 degrees
-set_servo_angle(60)
+# # Test by setting the servo to 60 degrees
+# set_servo_angle(60)
 
-time.sleep(1)
+# time.sleep(1)
 
-set_servo_angle(0)
+# set_servo_angle(0)
 
-time.sleep(2.5)
-# Move the servo to 0 degrees (extreme position)
-set_servo_angle(60)
+# time.sleep(2.5)
+# # Move the servo to 0 degrees (extreme position)
+# set_servo_angle(60)
 
-time.sleep(2.5)
+# time.sleep(2.5)
 
-# Move the servo to 135 degrees (mid-range)
-set_servo_angle(0)
+# # Move the servo to 135 degrees (mid-range)
+# set_servo_angle(0)
 
-time.sleep(2.5)
+# time.sleep(2.5)
 
-set_servo_angle(120)
+# set_servo_angle(120)
 
 
-time.sleep(2.5)
-set_servo_angle(0)
-time.sleep(2.5)
-set_servo_angle(120)
-time.sleep(2.5)
-set_servo_angle(0)
-time.sleep(2.5)
-set_servo_angle(180)
-time.sleep(2.5)
-set_servo_angle(180)
+# time.sleep(2.5)
+# set_servo_angle(0)
+# time.sleep(2.5)
+# set_servo_angle(120)
+# time.sleep(2.5)
+# set_servo_angle(0)
+# time.sleep(2.5)
+# set_servo_angle(135)
+# time.sleep(2.5)
+# set_servo_angle(180)
+# time.sleep(2.5)
+# set_servo_angle(0)
 #Move the servo to 270 degrees (extreme position)
 
 # Disable PWM output after test
