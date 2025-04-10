@@ -40,6 +40,10 @@ set_servo_angle(180)
 time.sleep(1)
 
 # Move the servo to 135 degrees (mid-range)
+set_servo_angle(0)
+
+time.sleep(1)
+
 set_servo_angle(270)
 
 time.sleep(1)
